@@ -9,7 +9,7 @@ def parallel(resistors):
     total_sum = sum(reciprocals)
     
     if total_sum == 0:
-        print("Infinite resistance (open circuit).")
+        print("Infinite resistance")
     else:
         effective_resistance = 1 / total_sum
         print("Effective resistance: " + str(round(effective_resistance, 3)) + " ohms")
@@ -36,7 +36,7 @@ potential_divider(resistors, total_voltage)
 
 
 
-# Question 3
+# Question 3 (5mks)
 
 def temperature_check(unit, temp):
     limits = {
