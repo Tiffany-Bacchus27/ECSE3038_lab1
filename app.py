@@ -27,11 +27,11 @@ def potential_divider(resistors, total_voltage):
     total_resistance = sum(resistors)
     for i in  range(len(resistors)):
         voltage_drop = (resistors[i] / total_resistance * total_voltage)
-        print("Voltage drop across resistor", i + 1, ":", voltage_drop, "V")
+        print("Voltage drop across resistor", i + 1,":", voltage_drop, "V")
 
 
 resistors= [10, 5, 3]
-total_voltage =  9
+total_voltage = 9
 potential_divider(resistors, total_voltage)
 
 
