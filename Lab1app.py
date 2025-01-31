@@ -12,7 +12,7 @@ def parallel(resistors):
         print("Infinite resistance")
     else:
         effective_resistance = 1 / total_sum
-        print("Effective resistance: " + str(round(effective_resistance, 3)) + " ohms")
+        print("Effective resistance : " + str(round(effective_resistance, 3)) + " ohms")
 
 # resistors = [330,1000,2200]
 resistors = [20, 30, 60]
